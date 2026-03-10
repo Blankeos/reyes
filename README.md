@@ -1,10 +1,12 @@
-# Reyes - Rust eyes for computer-use agents
+# 👁️ Reyes - Rust eyes for computer-use agents
 
 ![Banner](_docs/banner.jpg)
 
 A comprehensive computer-use CLI built on rustautogui that gives AI vision and control over your computer.
 
-> npm install -g reyes
+```sh
+npm install -g reyes
+```
 
 ## Overview
 
