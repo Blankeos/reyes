@@ -1,17 +1,17 @@
 [package]
-name = "rcua"
+name = "reyes"
 version = "0.1.0"
 edition = "2021"
 description = "A comprehensive computer-use CLI built on rustautogui - giving AI vision and control over your computer"
-authors = ["Your Name <your.email@example.com>"]
+authors = ["Blankeos"]
 license = "MIT"
-repository = "https://github.com/yourusername/rcua"
+repository = "https://github.com/Blankeos/reyes"
 keywords = ["automation", "gui", "cli", "autogui", "computer-use"]
 categories = ["command-line-utilities", "development-tools"]
 rust-version = "1.70.0"
 
 [[bin]]
-name = "rcua"
+name = "reyes"
 path = "src/main.rs"
 
 [dependencies]
@@ -32,3 +32,8 @@ opt-level = 3
 lto = true
 codegen-units = 1
 strip = true
+
+# The profile that 'dist' will build with
+[profile.dist]
+inherits = "release"
+lto = "thin"

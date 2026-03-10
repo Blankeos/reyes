@@ -6,7 +6,7 @@ use serde::Serialize;
 use std::time::{Duration, Instant};
 
 #[derive(Parser)]
-#[command(name = "rcua")]
+#[command(name = "reyes")]
 #[command(about = "A comprehensive computer-use CLI built on rustautogui")]
 #[command(version = "0.1.0")]
 struct Cli {
