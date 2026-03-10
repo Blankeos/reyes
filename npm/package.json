@@ -1,5 +1,5 @@
 {
-	"name": "reyes",
+	"name": "reyes-cli",
 	"version": "0.1.0",
 	"description": "A comprehensive computer-use CLI built on rustautogui - giving AI vision and control over your computer",
 	"main": "bin.js",
