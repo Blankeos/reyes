@@ -1,6 +1,6 @@
 [package]
 name = "reyes"
-version = "0.1.0"
+version = "0.0.0"
 edition = "2021"
 description = "A comprehensive computer-use CLI built on rustautogui - giving AI vision and control over your computer"
 authors = ["Blankeos"]
