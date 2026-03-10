@@ -1,40 +1,40 @@
 {
-  "name": "reyes",
-  "version": "0.1.0",
-  "description": "A comprehensive computer-use CLI built on rustautogui - giving AI vision and control over your computer",
-  "main": "bin.js",
-  "bin": {
-    "reyes": "./bin.js"
-  },
-  "scripts": {
-    "postinstall": "node install.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Blankeos/reyes.git"
-  },
-  "keywords": [
-    "cli",
-    "automation",
-    "gui",
-    "autogui",
-    "computer-use",
-    "vision",
-    "control"
-  ],
-  "author": "Blankeos",
-  "license": "MIT",
-  "files": [
-    "install.js",
-    "bin.js",
-    "README.md"
-  ],
-  "engines": {
-    "node": ">=12"
-  },
-  "os": [
-    "darwin",
-    "linux",
-    "win32"
-  ]
+	"name": "reyes",
+	"version": "0.0.0",
+	"description": "A comprehensive computer-use CLI built on rustautogui - giving AI vision and control over your computer",
+	"main": "bin.js",
+	"bin": {
+		"reyes": "./bin.js"
+	},
+	"scripts": {
+		"postinstall": "node install.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Blankeos/reyes.git"
+	},
+	"keywords": [
+		"cli",
+		"automation",
+		"gui",
+		"autogui",
+		"computer-use",
+		"vision",
+		"control"
+	],
+	"author": "Blankeos",
+	"license": "MIT",
+	"files": [
+		"install.js",
+		"bin.js",
+		"README.md"
+	],
+	"engines": {
+		"node": ">=12"
+	},
+	"os": [
+		"darwin",
+		"linux",
+		"win32"
+	]
 }
