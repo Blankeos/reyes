@@ -5,7 +5,9 @@
 A comprehensive computer-use CLI built on rustautogui that gives AI vision and control over your computer.
 
 ```sh
-npm install -g reyes
+npm install -g reyes-cli # with npm
+bun install -g reyes-cli # with bun
+cargo install reyes # with cargo
 ```
 
 ## Overview
